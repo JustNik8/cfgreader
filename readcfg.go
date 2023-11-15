@@ -11,6 +11,5 @@ func ReadCfg(filename string, cfg any) error {
 		return err
 	}
 
-	err = yaml.Unmarshal(yamlFile, cfg)
-	return err
+	return yaml.Unmarshal(yamlFile, cfg)
 }

@@ -18,7 +18,7 @@ type Config struct {
 	Timeout time.Duration `yaml:"timeout"`
 }
 ```
-This structure describes the following yaml file:
+This struct describes the following yaml file:
 ``` yaml
 host: localhost
 port: 4000
